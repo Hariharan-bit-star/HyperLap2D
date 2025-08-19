@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(git config:*)",
-      "Bash(touch:*)"
+      "Bash(touch:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
